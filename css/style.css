@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #7b7c84;
+    padding: 0;
+    margin: 5px;
+}
+
+img {
+    border: 2px solid black;
+}
+
+#middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about p {
+    margin:0;
+    margin-bottom: 4px;
+}
+
+#about div {
+    display: flex;
+    flex-direction: column;
+}
+
+#about a {
+    color: white;
+}
+
+#skills li {
+    margin-bottom: 5px;
+}
+
+#experience {
+    margin: 10px;
+}
+
+#experience p {
+    display: flex;
+    justify-content: space-between;
+}
+
+#experience article {
+    display: flex;
+    flex-direction: column;
+}
+
+#experience li {
+    margin-bottom: 5px;
+}
+
+#education article {
+    display: flex;
+    flex-direction: column;
+}
+
+#education p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
