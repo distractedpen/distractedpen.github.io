@@ -34,6 +34,10 @@ img {
     flex-direction: column;
 }
 
+.links {
+    width: fit-content;
+}
+
 #about a {
     color: white;
 }
